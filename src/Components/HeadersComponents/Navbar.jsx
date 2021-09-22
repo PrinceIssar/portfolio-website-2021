@@ -10,7 +10,7 @@ export default function Navbar({ navlinks, handleDrawerToogler }) {
 
     return (
         <AppBar position="fixed" className={classes.navbar}>
-            <Toolbar className={classes.ToolBar}>
+            <Toolbar className={classes.ToolBar} style={{backgroundColor:Theme.colors.base1}}>
                 <Typography variant="h5" component="h6">
                     {"Portfolio"}
                 </Typography>
