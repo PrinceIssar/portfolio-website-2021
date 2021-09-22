@@ -3,6 +3,7 @@ import {AppBar, Typography, Toolbar, Button, Box, Hidden, IconButton} from "@mat
 import {useStyles} from "./HeaderStyles";
 import CodeSharpIcon from '@material-ui/icons/CodeSharp';
 import {Link} from "react-scroll";
+import {Theme} from "../Theme";
 
 
 export default function Navbar({ navlinks, handleDrawerToogler }) {
