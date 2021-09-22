@@ -1,1 +1,1 @@
-[Check out ] my React Portfolio(https://princeissar-portfolio.netlify.app/)
+[Check out ](https://princeissar-portfolio.netlify.app/) my Portfolio made in React. 
