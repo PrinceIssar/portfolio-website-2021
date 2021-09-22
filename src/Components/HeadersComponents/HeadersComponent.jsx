@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Box, Drawer, Typography} from "@material-ui/core";
+import {Box, Typography} from "@material-ui/core";
 import {useStyles} from "./HeaderStyles";
 import Navbar from "./Navbar";
 import ArrowDownwardRoundedIcon from '@material-ui/icons/ArrowDownwardRounded';

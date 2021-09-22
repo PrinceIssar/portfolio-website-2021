@@ -48,7 +48,7 @@ export default function Portfolio() {
             <Container maxWidth="xl">
                 <Grid container spacing={3}>
                     {portfolioData.map((item, i) => (
-                        <Grid item sm={2} xs={6} sm={4} lg={3} key={i}>
+                        <Grid item xs={6} sm={4} lg={3} key={i}>
                             <Box className={classes.imageContainer}>
                                 <img
                                     src={item.url}

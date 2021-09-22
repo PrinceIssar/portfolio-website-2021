@@ -2,7 +2,7 @@ import {Box, Container, Grid, Hidden} from "@material-ui/core";
 import React from 'react';
 import {useStyles} from "./BodyStyles";
 import image from "../../images/aboutme.jpeg";
-import {CardMedia, RenderSectionHeading,Decorator,Divider} from "../common/commonComponent";
+import {CardMedia, RenderSectionHeading} from "../common/commonComponent";
 import AcUnitIcon from '@material-ui/icons/AcUnit';
 import AirIcon from '@mui/icons-material/Air';
 import DesignServicesIcon from '@mui/icons-material/DesignServices';
