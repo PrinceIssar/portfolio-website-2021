@@ -33,7 +33,7 @@ export default function HeadersComponent() {
                 <Typography variant="h3" component="h4" className={classes.headerTitle}>
                     I'm <span style={{paddingRight: '5px'}}></span>
                     <Typed
-                        strings={["Prince Issar,", "Web Developer,"]}
+                        strings={["Prince Issar", " a Web Developer"]}
                         typeSpeed={30}
                         backSpeed={50}
                         loop

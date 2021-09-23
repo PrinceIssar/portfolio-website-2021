@@ -20,7 +20,7 @@ export const useStyles = makeStyles((theme)=> ({
     },
     responsiveImg:{
         width: "500px",
-        height: "550px",
+        height: "450px",
     },
     responsivePrinceImg:{
         width: "500px",
@@ -55,6 +55,7 @@ export const useStyles = makeStyles((theme)=> ({
     // portfolio section
     imageContainer:{
         position:'relative',
+        objectFit:'cover',
         '&:hover $imageOverlay':{
             opacity:2,
         },

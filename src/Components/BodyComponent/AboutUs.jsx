@@ -13,25 +13,25 @@ export default function AboutUs() {
     const cardMediaData = [
         {
             title: 'Web Development',
-            description: 'bla bla bla.......',
+            description: 'Create website layout/user interface by using standard HTML/CSS practices',
             icon: <DesignServicesIcon/>,
 
         },
         {
             title: 'Web Designing',
-            description: 'bla bla bla.......',
+            description: 'Develop and maintain consistent branding',
             icon: <AirIcon/>,
 
         },
         {
             title: 'Mobile Apps',
-            description: 'bla bla bla.......',
+            description: 'Developing new features and user interfaces from wireframe models',
             icon: <AirIcon/>,
 
         },
         {
             title: 'Marketing',
-            description: 'bla bla bla.......',
+            description: 'Produce design assets for use in social media and marketing channels',
             icon: <AcUnitIcon/>,
 
         },
@@ -53,7 +53,7 @@ export default function AboutUs() {
                    {RenderSectionHeading({
                        smallText: "About Me",
                        heading: "Hello, I'm Prince Issar",
-                       description: "BeCode enabled me to code"
+                       description: "I'm responsible for the coding, innovative design and layout of a website."
                    })}
                    <br/>
 

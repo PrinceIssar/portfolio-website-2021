@@ -18,14 +18,14 @@ export default function Portfolio() {
  const classes = useStyles();
 
  const portfolioData = [
-     {url: image1, title: "# Portfolio ",link:""},
-     {url: image2, title: "# Portfolio ",link:""},
-     {url: image3, title: "# Portfolio ",link:""},
-     {url: image4, title: "# Portfolio ",link:""},
-     {url: image5, title: "# Portfolio ",link:""},
-     {url: image6, title: "# Portfolio ",link:""},
-     {url: image7, title: "# Portfolio ",link:""},
-     {url: image8, title: "# Portfolio ",link:""},
+     {url: image1, title: "React Recipe ",link:""},
+     {url: image2, title: "React Covid-Tracker ",link:""},
+     {url: image3, title: "React ToDoList ",link:""},
+     {url: image4, title: "React TicTacToe ",link:""},
+     {url: image5, title: "Socket ChatRoom ",link:""},
+     {url: image6, title: "Corona Game ",link:""},
+     {url: image7, title: "RPSLS Game ",link:""},
+     {url: image8, title: "Weather app ",link:""},
  ];
     return (
         <Box className={classes.sectionDark} id="Portfolio">
@@ -35,6 +35,7 @@ export default function Portfolio() {
                 display:'flex',
                 justifyContent:"center",
                 alignContent:"center",
+
             }}>
                 <Grid item xs={12} sm={8}>
                     {RenderSectionHeading({
