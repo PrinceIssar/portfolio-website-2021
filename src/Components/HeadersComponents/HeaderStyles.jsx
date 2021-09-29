@@ -9,6 +9,7 @@ export const useStyles = makeStyles((theme)=>({
         height:"auto",
         background:`linear-gradient(to bottom right,#357da6,#00606473),url(${Image})`,
          backgroundSize: "cover",
+        backgroundPosition:'center',
          backgroundRepeat: "no-repeat",
     },
     HeaderContainer: {
