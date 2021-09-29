@@ -1,7 +1,7 @@
 import React from 'react'
 import {useStyles} from "./BodyStyles";
 import {RenderSectionHeading} from "../common/commonComponent";
-import {Box, Button, Container, Grid, Typography} from "@material-ui/core";
+import {Box, Container, Grid, Typography} from "@material-ui/core";
 import image1 from "../../images/ReactReceipeApi.png";
 import image2 from "../../images/ReactCovidTracker.png";
 import image3 from "../../images/ReactToDoList.png";
@@ -58,7 +58,7 @@ export default function Portfolio() {
                                     <Typography className={classes.overlayTitle}>
                                         {item.title}
                                     </Typography>
-                                    <a href={item.link} variant={"contained"}>Visit</a>
+                                    <a href={item.link} target='_blank'>Visit</a>
                                 </Box>
                             </Box>
                         </Grid>
