@@ -41,16 +41,16 @@ export default function Contact() {
         <Box className={classes.section} id='Contact'>
             <ScrollAnimation animateIn='fadeIn'>
             <Container maxWidth="xl">
-                <Grid container spacing={1}>
+                <Grid container justifyContent='center' spacing={1}>
                     <Grid item  sm={5} >
-                        <Box component={Hidden} xsDown>
+                        <Box  xsDown >
                             <img
                                 src={image}
                                 alt="about us"
-                                className={classes.responsivePrinceImg}/>
+                                className={classes.responsiveImg +' '+ classes.responsivePrinceImg}/>
                         </Box>
                     </Grid>
-                    <Grid item xs={12} sm={7}>
+                    <Grid item xs={12} sm={12} md={7}>
                         {RenderSectionHeading({
                             smallText: "Contact Me",
                             heading: "Got a question...? Looking for help with...?",

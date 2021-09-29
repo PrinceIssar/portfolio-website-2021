@@ -19,16 +19,22 @@ export const useStyles = makeStyles((theme)=> ({
 
     },
     responsiveImg:{
-        width: "500px",
-        height: "450px",
+        width: "100%",
+        height: "100%",
+        objectFit:'cover',
     },
     responsivePrinceImg:{
-        width: "500px",
-        height: "600px",
+        // width: "500px",
+        // height: "600px",
+        objectFit:'contain',
     },
     responsivePortImg:{
-        width:'300px ',
-        height:'300px',
+        width: '100%',
+        height: '100%',
+        objectPosition: ' center top',
+        objectFit: 'cover',
+
+
     },
 
     sectionHeadingContainer:{
@@ -55,15 +61,18 @@ export const useStyles = makeStyles((theme)=> ({
     // portfolio section
     imageContainer:{
         position:'relative',
-        objectFit:'cover',
+        overflow:'hidden',
+        height:'250px',
+        maxWidth:'320px',
+        margin:'auto',
         '&:hover $imageOverlay':{
             opacity:2,
         },
     },
     imageOverlay:{
         position:'absolute',
-        width:'300px ',
-        height:'300px',
+        width:'100% ',
+        height:'100%',
         top:0,
         left:0,
         backgroundColor:Theme.colors.primary,

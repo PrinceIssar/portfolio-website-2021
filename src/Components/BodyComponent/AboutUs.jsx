@@ -41,7 +41,7 @@ export default function AboutUs() {
             <ScrollAnimation animateIn='fadeIn'>
             <Container>
            <Grid container spacing={1}>
-               <Grid item  sm={5} >
+               <Grid item  md={5} sm={5} >
                    <Box component={Hidden} xsDown>
                        <img
                            src={image}

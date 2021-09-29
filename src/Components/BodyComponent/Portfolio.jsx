@@ -18,14 +18,14 @@ export default function Portfolio() {
  const classes = useStyles();
 
  const portfolioData = [
-     {url: image1, title: "React Recipe ",link:""},
-     {url: image2, title: "React Covid-Tracker ",link:""},
-     {url: image3, title: "React ToDoList ",link:""},
-     {url: image4, title: "React TicTacToe ",link:""},
-     {url: image5, title: "Socket ChatRoom ",link:""},
-     {url: image6, title: "Corona Game ",link:""},
-     {url: image7, title: "RPSLS Game ",link:""},
-     {url: image8, title: "Weather app ",link:""},
+     {url: image1, title: "React Recipe ",link:"https://weather-app-pi.netlify.app/"},
+     {url: image2, title: "React Covid-Tracker ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
+     {url: image3, title: "React ToDoList ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
+     {url: image4, title: "React TicTacToe ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
+     {url: image5, title: "Socket ChatRoom ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
+     {url: image6, title: "Corona Game ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
+     {url: image7, title: "RPSLS Game ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
+     {url: image8, title: "Weather app ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
  ];
     return (
         <Box className={classes.sectionDark} id="Portfolio">
@@ -35,7 +35,6 @@ export default function Portfolio() {
                 display:'flex',
                 justifyContent:"center",
                 alignContent:"center",
-
             }}>
                 <Grid item xs={12} sm={8}>
                     {RenderSectionHeading({
@@ -49,7 +48,7 @@ export default function Portfolio() {
             <Container maxWidth="xl">
                 <Grid container spacing={3}>
                     {portfolioData.map((item, i) => (
-                        <Grid item xs={6} sm={4} lg={3} key={i}>
+                        <Grid item xs={12} sm={6} md={4} lg={3} key={i}>
                             <Box className={classes.imageContainer}>
                                 <img
                                     src={item.url}
@@ -59,7 +58,7 @@ export default function Portfolio() {
                                     <Typography className={classes.overlayTitle}>
                                         {item.title}
                                     </Typography>
-                                    <Button variant={"contained"}>Visit</Button>
+                                    <a href={item.link} variant={"contained"}>Visit</a>
                                 </Box>
                             </Box>
                         </Grid>
