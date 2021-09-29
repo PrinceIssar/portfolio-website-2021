@@ -18,14 +18,14 @@ export default function Portfolio() {
  const classes = useStyles();
 
  const portfolioData = [
-     {url: image1, title: "React Recipe ",link:"https://weather-app-pi.netlify.app/"},
-     {url: image2, title: "React Covid-Tracker ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
-     {url: image3, title: "React ToDoList ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
-     {url: image4, title: "React TicTacToe ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
-     {url: image5, title: "Socket ChatRoom ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
-     {url: image6, title: "Corona Game ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
-     {url: image7, title: "RPSLS Game ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
-     {url: image8, title: "Weather app ",link:"https://app.netlify.com/sites/weather-app-pi/overview"},
+     {url: image1, title: "React Recipe ",link:"https://github.com/PrinceIssar/receipe"},
+     {url: image2, title: "React Covid-Tracker ",link:"https://react-covid-tracker-pi.netlify.app/"},
+     {url: image3, title: "React ToDoList ",link:"https://to-do-list-react-pi.netlify.app/"},
+     {url: image4, title: "React TicTacToe ",link:"https://react-tic-tac-toe-pi.netlify.app/"},
+     {url: image5, title: "Socket ChatRoom ",link:""},
+     {url: image6, title: "Corona Game ",link:"https://corona-game-js-pi.netlify.app/"},
+     {url: image7, title: "RPSLS Game ",link:"https://rockpaper-game-pi.netlify.app/"},
+     {url: image8, title: "Weather app ",link:"https://weather-app-pi.netlify.app/"},
  ];
     return (
         <Box className={classes.sectionDark} id="Portfolio">
