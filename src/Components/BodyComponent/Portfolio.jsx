@@ -24,7 +24,7 @@ export default function Portfolio() {
      {url: image4, title: "React TicTacToe ",link:"https://react-tic-tac-toe-pi.netlify.app/"},
      {url: image5, title: "Socket ChatRoom ",link:""},
      {url: image6, title: "Corona Game ",link:"https://corona-game-js-pi.netlify.app/"},
-     {url: image7, title: "Rock_paper Game ",link:"https://rockpaper-game-pi.netlify.app/"},
+     {url: image7, title: "RPSLS Game ",link:"https://rockpaper-game-pi.netlify.app/"},
      {url: image8, title: "Weather app ",link:"https://weather-app-pi.netlify.app/"},
  ];
     return (
