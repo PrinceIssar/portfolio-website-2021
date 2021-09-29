@@ -58,7 +58,7 @@ export default function Portfolio() {
                                     <Typography className={classes.overlayTitle}>
                                         {item.title}
                                     </Typography>
-                                    <a href={item.link} target='_blank'>Visit</a>
+                                    <a href={item.link} target='_blank' rel="noreferrer">Visit</a>
                                 </Box>
                             </Box>
                         </Grid>
