@@ -121,5 +121,15 @@ export const useStyles = makeStyles((theme)=> ({
         backgroundColor: Theme.colors.primary,
         color: Theme.colors.base2,
     },
+    VisitTag:{
+        position:'absolute',
+        marginTop:'100px',
+        display: 'inline-block',
+        padding: '1em 3em',
+        borderRadius: '40px',
+        textDecoration:'none',
+        color: 'white',
+        backgroundColor:Theme.colors.base1,
+    }
 }));
 
