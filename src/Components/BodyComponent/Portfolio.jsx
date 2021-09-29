@@ -3,13 +3,13 @@ import {useStyles} from "./BodyStyles";
 import {RenderSectionHeading} from "../common/commonComponent";
 import {Box, Container, Grid, Typography} from "@material-ui/core";
 import image1 from "../../images/RPSLS_game.png";
-import image2 from "../../images/ReactCovidTracker.png";
+import image2 from "../../images/SocketChatRoom.png";
 import image3 from "../../images/ReactToDoList.png";
 import image4 from "../../images/ReactTicTacToe.png";
-import image5 from "../../images/SocketChatRoom.png";
+import image5 from "../../images/htmlCssJSWeather.png";
 import image6 from "../../images/htmlCssJSCorona.png";
 import image7 from "../../images/ReactReceipeApi.png";
-import image8 from "../../images/htmlCssJSWeather.png";
+import image8 from "../../images/ReactCovidTracker.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -19,13 +19,13 @@ export default function Portfolio() {
 
  const portfolioData = [
      {url: image1, title: "RPSLS Game",link:"https://rockpaper-game-pi.netlify.app/"},
-     {url: image2, title: "React Covid-Tracker ",link:"https://react-covid-tracker-pi.netlify.app/"},
+     {url: image2, title: "Socket ChatRoom ",link:"https://chatbox-socket.herokuapp.com/"},
      {url: image3, title: "React ToDoList ",link:"https://to-do-list-react-pi.netlify.app/"},
      {url: image4, title: "React TicTacToe ",link:"https://react-tic-tac-toe-pi.netlify.app/"},
-     {url: image5, title: "Socket ChatRoom ",link:"https://chatbox-socket.herokuapp.com/"},
+     {url: image5, title: "Weather app ",link:"https://weather-app-pi.netlify.app/"},
      {url: image6, title: "Corona Game ",link:"https://corona-game-js-pi.netlify.app/"},
      {url: image7, title: "React Recipe",link:"https://github.com/PrinceIssar/receipe"},
-     {url: image8, title: "Weather app ",link:"https://weather-app-pi.netlify.app/"},
+     {url: image8, title: "React Covid-Tracker ",link:"https://react-covid-tracker-pi.netlify.app/"},
  ];
     return (
         <Box className={classes.sectionDark} id="Portfolio">
